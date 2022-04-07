@@ -1,6 +1,6 @@
 """
 4.1.1.12 LAB #1
-https://edube.org/learn/python-advanced-1/advanced-exceptions-the-lab
+https://edube.org/learn/python-advanced-1/lab-1-1
 """
 import copy
 
@@ -17,7 +17,7 @@ for item in warehouse:
 
 print('\nPrice proposal')
 warehouse_proposal = copy.deepcopy(warehouse)
-for item in warehouse:
+for item in warehouse_proposal:
     if item['weight'] > 300:
         item['price'] *= 0.8
     print(item)
