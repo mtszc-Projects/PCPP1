@@ -26,7 +26,7 @@ Settling widgets in the window's interior
 """
 # import tkinter as tk
 
-# place()
+# TODO: place()
 # window = tk.Tk()
 # button_1 = tk.Button(window, text="Button #1")
 # button_2 = tk.Button(window, text="Button #2")
@@ -36,7 +36,7 @@ Settling widgets in the window's interior
 # button_3.place(x=30, y=70, height=50)
 # window.mainloop()
 
-# grid()
+# TODO: grid()
 # window = tk.Tk()
 # button_1 = tk.Button(window, text="Button #1")
 # button_2 = tk.Button(window, text="Button #2")
@@ -46,7 +46,7 @@ Settling widgets in the window's interior
 # button_3.grid(row=2, column=0, columnspan=2)
 # window.mainloop()
 
-# pack() - first example
+# TODO: pack() - first example
 # window = tk.Tk()
 # button_1 = tk.Button(window, text="Button #1")
 # button_2 = tk.Button(window, text="Button #2")
@@ -56,7 +56,7 @@ Settling widgets in the window's interior
 # button_3.pack()
 # window.mainloop()
 
-# pack() - second example
+# TODO: pack() - second example
 # window = tk.Tk()
 # button_1 = tk.Button(window, text="Button #1")
 # button_2 = tk.Button(window, text="Button #2")
@@ -66,7 +66,7 @@ Settling widgets in the window's interior
 # button_3.pack()
 # window.mainloop()
 
-# pack() - third example
+# TODO: pack() - third example
 # window = tk.Tk()
 # button_1 = tk.Button(window, text="Button #1")
 # button_2 = tk.Button(window, text="Button #2")
@@ -81,13 +81,13 @@ Coloring your widgets
 """
 # import tkinter as tk
 
-# 1st example
+# TODO: 1st example
 # window = tk.Tk()
 # button = tk.Button(window, text="Button #1", bg="red", fg="yellow")
 # button.pack()
 # window.mainloop()
 
-# 2nd example
+# TODO: 2nd example
 # window = tk.Tk()
 # button = tk.Button(window, text="Button #1",
 #                    bg="MediumPurple",
@@ -97,7 +97,7 @@ Coloring your widgets
 # button.pack()
 # window.mainloop()
 
-# 3rd example
+# TODO: 3rd example
 # window = tk.Tk()
 # button = tk.Button(window, text="Button #1",
 #                    bg="#9370DB",

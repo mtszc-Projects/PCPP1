@@ -17,7 +17,7 @@ Below code snippets are taken from course content.
 # button_2.pack()
 # window.mainloop()
 
-# TODO 2st example
+# TODO 2nd example
 # import tkinter as tk
 # from tkinter import messagebox
 #

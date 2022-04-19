@@ -1,7 +1,7 @@
 """
 Below code snippets are taken from course content.
 """
-# TODO 1st example
+# TODO 1st example (after())
 # import tkinter as tk
 #
 #
@@ -23,7 +23,7 @@ Below code snippets are taken from course content.
 # frame.pack()
 # window.mainloop()
 
-# TODO 2st example
+# TODO 2nd example (destroy())
 # import tkinter as tk
 #
 #
@@ -39,7 +39,7 @@ Below code snippets are taken from course content.
 # frame.pack()
 # window.mainloop()
 
-# TODO 3rd example
+# TODO 3rd example (focus_get(), focus_set())
 # import tkinter as tk
 #
 #

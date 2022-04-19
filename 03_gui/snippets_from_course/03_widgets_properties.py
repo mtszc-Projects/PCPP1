@@ -20,7 +20,7 @@ Below code snippets are taken from course content.
 # button.place(x=50, y=100, width=100)
 # window.mainloop()
 
-# TODO 2st example
+# TODO 2nd example
 # import tkinter as tk
 #
 #
