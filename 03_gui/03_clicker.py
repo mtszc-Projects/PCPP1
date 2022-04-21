@@ -26,7 +26,6 @@ def eliminate(event, arg):
     if button_value == min(randoms):
         arg['state'] = tk.DISABLED
         randoms.pop()
-        print(randoms)
 
 
 window = tk.Tk()
@@ -36,7 +35,6 @@ button_counter = 0
 columns = [0, 1, 2, 3, 4]
 rows = [0, 1, 2, 3, 4]
 randoms = random.sample(range(1000), 25)
-print(randoms)
 for row in rows:
     for column in columns:
         exec(f'b_{button_counter} = tk.Button(window, text=randoms[button_counter], width=10)')
@@ -44,7 +42,7 @@ for row in rows:
         exec(f'b_{button_counter}.grid(row=row, column=column)')
         button_counter += 1
 randoms.sort(reverse=True)
-print(randoms)
 label = tk.Label(window, text=time_counter)
 label.grid(row=5, column=2)
+window.resizable(width=False, height=False)
 window.mainloop()
