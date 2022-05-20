@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Honda",
+      "model": "Acord",
+      "production_year": 1987,
+      "convertible": false
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic",
+      "production_year": 1978,
+      "convertible": false
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "model": "7",
+      "production_year": 1999,
+      "convertible": false
+    }
+  ]
+}
