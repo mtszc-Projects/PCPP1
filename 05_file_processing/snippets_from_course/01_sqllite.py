@@ -1,6 +1,6 @@
 import sqlite3
 
-# TODO:
+# TODO: Basic methods
 # conn = sqlite3.connect('todo.db')
 # c = conn.cursor()
 # c.execute('''CREATE TABLE IF NOT EXISTS tasks (
@@ -68,3 +68,17 @@ conn.close()
 # row = c.fetchone()
 # print(row)
 # conn.close()
+
+# TODO: Update
+# conn = sqlite3.connect('todo.db')
+# c = conn.cursor()
+# c.execute('UPDATE tasks SET priority = ? WHERE id = ?', (20, 1))
+# conn.commit()
+# c.close()
+
+# TODO: Delete
+# conn = sqlite3.connect('todo.db')
+# c = conn.cursor()
+# c.execute('DELETE FROM tasks WHERE id = ?', (1,))
+# conn.commit()
+# c.close()
