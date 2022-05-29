@@ -3,7 +3,6 @@ import csv
 # TODO: writer()
 with open('exported_contacts.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
-
     writer.writerow(['Name', 'Phone'])
     writer.writerow(['mother', '222-555-101'])
     writer.writerow(['father', '222-555-102'])
@@ -13,7 +12,6 @@ with open('exported_contacts.csv', 'w', newline='') as csvfile:
 # TODO: writer() with quotechar/quoting
 with open('exported_contacts.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
     writer.writerow(['Name', 'Phone'])
     writer.writerow(['mother', '222-555-101'])
     writer.writerow(['father', '222-555-102'])
@@ -25,7 +23,6 @@ with open('exported_contacts.csv', 'w', newline='') as csvfile:
 with open('exported_contacts.csv', 'w', newline='') as csvfile:
     fieldnames = ['Name', 'Phone']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
     writer.writeheader()
     writer.writerow({'Name': 'mother', 'Phone': '222-555-101'})
     writer.writerow({'Name': 'father', 'Phone': '222-555-102'})
