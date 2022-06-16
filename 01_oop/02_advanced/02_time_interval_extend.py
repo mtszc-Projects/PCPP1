@@ -1,6 +1,10 @@
 """
 2.1.1.11 Python core syntax: LAB #2
 https://edube.org/learn/python-advanced-1/python-core-syntax-lab-2
+Extend the class implementation prepared in the previous lab to support the addition and subtraction of integers
+to time interval objects;
+to add an integer to a time interval object means to add seconds;
+to subtract an integer from a time interval object means to remove seconds.
 """
 
 

@@ -21,6 +21,9 @@ For more info visit: https://pythoninstitute.org/certification/pcpp-certificatio
 * Python 3
 * GIT
 * Linux/Bash
+* Python modules:
+  * Pickle
+  * Shelve
 
 ## Status
-Project is: _in progress_
+Project is: _Done_
