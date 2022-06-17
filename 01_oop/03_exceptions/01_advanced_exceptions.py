@@ -1,6 +1,8 @@
 """
 3.1.1.12 Advanced exceptions – the LAB
 https://edube.org/learn/python-advanced-1/advanced-exceptions-the-lab
+Try to extend the checklist script to handle more different checks, all reported as RocketNotReady exceptions.
+Add your own checks for: batteries and circuits.
 """
 
 

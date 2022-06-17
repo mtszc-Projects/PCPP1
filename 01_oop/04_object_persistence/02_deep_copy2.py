@@ -1,6 +1,11 @@
 """
 4.1.1.13 LAB #2
 https://edube.org/learn/python-advanced-1/lab-2-1
+The previous task was a very easy one. Now let's rework the code a bit:
+introduce the Delicacy class to represent a generic delicacy. The objects of this class will replace the old school
+dictionaries. Suggested attribute names: name, price, weight;
+your class should implement the __str__() method to represent each object state;
+experiment with the copy.copy() and deepcopy.copy() methods to see the difference in how each method copies objects.
 """
 import copy
 

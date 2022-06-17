@@ -18,7 +18,7 @@ Course contains 5 modules:
 For more info visit: https://pythoninstitute.org/certification/pcpp-certification-professional/
 
 ## Technologies
-* Python 3
+* Python 3 (Advanced OOP i.e. metaclasses, exceptions chaining, decorator stacking)
 * GIT
 * Linux/Bash
 * Python modules:
