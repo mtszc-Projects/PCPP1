@@ -18,12 +18,13 @@ Course contains 5 modules:
 For more info visit: https://pythoninstitute.org/certification/pcpp-certification-professional/
 
 ## Technologies
-* Python 3 (Advanced OOP i.e. metaclasses, exceptions chaining, decorator stacking)
+* Python 3 (Advanced OOP i.a. metaclasses, exceptions chaining, decorator stacking)
 * GIT
 * Linux/Bash
 * Python modules:
   * Pickle
   * Shelve
+  * TkInter
 
 ## Status
 Project is: _Done_
