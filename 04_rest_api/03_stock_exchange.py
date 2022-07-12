@@ -1,6 +1,16 @@
 """
 2.1.1.3 New York Stock Exchange
 https://edube.org/learn/pcpp1-working-with-restful-apis/new-york-stock-exchange
+Download and open the following XML file in your favorite text editor:
+nyse.xml
+It's a small excerpt of the New York Stock Exchange quotes list. Take a look at it and analyze its structure. You need
+to do this as your task is to write a code which reads the data and presents it in a form similar to this one:
+Command prompt -- Stock Exchange
+Hints:
+don't forget to handle at least two possible exceptions: FileNotFoundError and xml.etree.ElementTree.ParseError;
+feel free to improve and beautify the output — we know perfectly well that ours is not very sophisticated and rather
+ugly.
+object.
 """
 import xml.etree.ElementTree
 

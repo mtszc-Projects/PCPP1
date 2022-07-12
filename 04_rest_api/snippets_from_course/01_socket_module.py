@@ -1,7 +1,7 @@
 import socket
 
 
-server_addr = 'www.site.com'
+server_addr = 'www.google.com'
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((server_addr, 80))
 sock.send(b"GET / HTTP/1.1\r\nHost: " +

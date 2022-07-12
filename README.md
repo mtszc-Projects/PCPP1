@@ -22,9 +22,13 @@ For more info visit: https://pythoninstitute.org/certification/pcpp-certificatio
 * GIT
 * Linux/Bash
 * Python modules:
-  * Pickle
-  * Shelve
-  * TkInter
+  * pickle
+  * shelve
+  * tkInter
+  * socket
+  * json
+  * xml
+  * request
 
 ## Status
 Project is: _Done_
