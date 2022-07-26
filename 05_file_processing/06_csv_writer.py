@@ -1,6 +1,16 @@
 """
 3.4.1.1 LAB: CSV – Lab 2
 https://edube.org/learn/pcpp1-5/lab-csv-lab-2
+Have you ever prepared a report? Your task will be to prepare a report summarizing the results of exams in maths,
+physics and biology. The report should include the name of the exam, the number of candidates, the number of passed
+exams, the number of failed exams, and the best and the worst scores. All the data necessary to create the report is in
+the exam_results.csv file.
+Note that one candidate may have several results for the same exam. The number of candidates should express the number
+of unique people in each exam identified by Candidate ID. The final report should look like this:
+Exam Name,Number of Candidates,Number of Passed Exams,Number of Failed Exams,Best Score,Worst Score
+Maths,8,4,6,90,33
+Physics,3,0,3,66,50
+Biology,5,2,3,88,23
 """
 import csv
 

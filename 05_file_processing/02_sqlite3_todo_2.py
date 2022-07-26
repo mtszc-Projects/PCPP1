@@ -1,6 +1,26 @@
 """
 1.4.1.1 LAB: sqlite3 - Lab 2
 https://edube.org/learn/pcpp1-5/lab-sqlite3-lab-2
+The application is almost ready. Let's add the missing functionalities to it:
+Create a method called change_priority, responsible for updating task priority. The method should get the id of the task
+from the user and its new priority (greater than or equal to 1).
+Create a method called delete_task, responsible for deleting single tasks. The method should get the task id from the
+user.
+Implement a simple menu consisting of the following options:
+1. Show Tasks
+2. Add Task
+3. Change Priority
+4. Delete Task
+5. Exit
+where:
+Show Tasks (calls the show_tasks method)
+Add Task (calls the add_task method)
+Change Priority (calls the change_priority method)
+Delete Task (calls the delete_task method)
+Exit (interrupts program execution)
+The program should obtain one of these options from the user, and then call the appropriate method of the TODO object.
+Choosing option 5 must terminate the program. A menu should be displayed in an infinite loop so that the user can choose
+an option multiple times.
 """
 import sqlite3
 

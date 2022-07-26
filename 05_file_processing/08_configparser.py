@@ -1,6 +1,32 @@
 """
 5.2.1.1 LAB: Interpolating values – Lab 1
 https://edube.org/learn/pcpp1-5/lab-interpolating-values-lab-1
+Imagine a situation in which you receive a configuration file containing access data for various services.
+Unfortunately, the file is a terrible mess, because it contains data used in both production and development
+environments.
+Your task will be to create two files named prod_config.ini and dev_config.ini. The prod_config.ini file should only
+contain sections for the production environment, while dev_config.ini should only contain sections for the development
+environment.
+To distinguish between the environments, use the env option added to all sections in the mess.ini file. The env option
+should be removed from the sections before moving them to the files.
+Expected result
+The prod_config.ini file:
+[sentry]
+key = key
+secret = secret
+[github]
+user = user
+password = password
+The dev_config.ini file:
+[mariadb]
+host = localhost
+name = hello
+user = user
+password = password
+[redis]
+host = localhost
+port = 6379
+db = 0
 """
 import configparser
 

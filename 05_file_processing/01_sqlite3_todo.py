@@ -1,6 +1,32 @@
 """
 1.2.1.1 LAB: sqlite3 - Lab 1
 https://edube.org/learn/pcpp1-5/lab-sqlite3-lab-1
+Our TODO application requires you to add a little security and display the data saved in the database. Your task is to
+implement the following functionalities:
+Create a find_task method, which takes the task name as its argument. The method should return the record found or None
+otherwise.
+Block the ability to enter an empty task (the name cannot be an empty string).
+Block the ability to enter a task priority less than 1.
+Use the find_task method to block the ability to enter a task with the same name.
+Create a method called show_tasks, responsible for displaying all tasks saved in the database.
+Test data:
+Example input:
+Enter task name: My first task
+Enter priority: 1
+Example output:
+(1, 'My first task', 1)
+Example input:
+Enter task name: My second task
+Enter priority: 2
+Example output:
+(1, 'My first task', 1)
+(2, 'My second task', 2)
+Example input:
+Enter task name: My first task
+Enter priority: 1
+Example output:
+(1, 'My first task', 1)
+(2, 'My second task', 2)
 """
 import sqlite3
 
