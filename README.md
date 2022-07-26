@@ -29,6 +29,10 @@ For more info visit: https://pythoninstitute.org/certification/pcpp-certificatio
   * json
   * xml
   * request
+  * sqlite3
+  * csv
+  * logging
+  * configparser
 
 ## Status
 Project is: _Done_
