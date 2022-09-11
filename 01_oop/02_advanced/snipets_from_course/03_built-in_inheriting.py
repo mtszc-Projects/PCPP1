@@ -83,7 +83,7 @@ print('Final result:', int_list)
 # print('Our log book:\n')
 # print('\n'.join(kk.log))
 
-# TODO: IBAn validator inheritance from Exception and dict
+# TODO: IBAN validator inheritance from Exception and dict
 # import random
 #
 #
