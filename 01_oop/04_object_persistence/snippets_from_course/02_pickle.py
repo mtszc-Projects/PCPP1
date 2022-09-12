@@ -5,6 +5,7 @@ https://edube.org/learn/python-advanced-1/serialization-of-python-objects-using-
 4.2.1.3 Serialization of Python objects using the pickle module
 https://edube.org/learn/python-advanced-1/serialization-of-python-objects-using-the-pickle-module-2
 """
+
 import pickle
 
 a_dict = dict()
